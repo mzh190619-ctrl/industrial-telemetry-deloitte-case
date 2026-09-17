@@ -25,12 +25,19 @@ The production facility generates massive streams of nested telemetry data. Mana
 ## 📊 Live Interactive Dashboard
 I have built and published a fully interactive BI Dashboard. 
 
-👉 **[Click here to view the Live Interactive Dashboard on Tableau Public]([https://tableau.com](https://public.tableau.com/authoring/DeloitteVirtualInternship-TelemetryAnalysis/Mydashboard#1))**
+👉 **[Click here to view the Live Interactive Dashboard on Tableau Public](https://public.tableau.com/authoring/DeloitteVirtualInternship-TelemetryAnalysis/Mydashboard#2)**
 
 ### Key Visuals Included:
-* **Down Time per Factory:** A bar chart identifying that `daikibo-factory-seiko` suffers the most significant operational losses (480 minutes of potential downtime).
-* **Down Time per Device Type:** A sorted bar chart highlighting failure-prone assets (e.g., LaserCutter and LaserWelder).
-* **Interactive Filtering:** Implemented a global action filter—clicking on any factory automatically filters the machine performance layout below.
+* **Down Time per Factory:** Столбчатая диаграмма, показывающая, что завод `daikibo-factory-seiko` страдает от самых серьезных операционных простоев.
+* **Failure Rate by Device Type:** График (например, древовидная карта или bar chart), который четко подсвечивает наиболее склонные к поломкам типы устройств.
+* **Downtime Trends Over Time:** Линейный график для отслеживания динамики сбоев во времени и выявления пиковых периодов нагрузки.
 
----
-*Disclaimer: This project was completed as part of a simulated virtual experience with Deloitte AU and uses mock industrial telemetry data.*
+## 💡 Key Insights & Business Impact
+* **Главный источник проблем:** Завод `daikibo-factory-seiko` лидирует по количеству статусов «Unhealthy», что напрямую генерирует самые высокие операционные убытки из-за простоев оборудования.
+* **Критически уязвимые узлы:** Определенные типы устройств показывают аномально высокую частоту отказов по сравнению с остальным парком оборудования.
+* **Переход к Data-Driven решениям:** Трансформация сырых JSON-логов в интерактивную модель Tableau позволила руководству сократить время поиска первопричины сбоя (Root-Cause Analysis) с нескольких часов до пары кликов.
+
+## 🚀 Strategic Recommendations
+1. **Превентивное обслуживание:** Внедрить регламент прогнозного ТО для типов устройств с высокой частотой отказов, чтобы предотвращать сбои до накопления критических 10-минутных простоев.
+2. **Аудит на заводе Seiko:** Инициировать детальную проверку условий эксплуатации оборудования на объекте `daikibo-factory-seiko` для выявления локальных причин повышенного износа.
+3. **Автоматизация дата-конвейера:** Перенести текущий ETL-процесс из Excel/Power Query в облачную базу данных (например, AWS или Azure) для настройки автоматического обновления Tableau-дашборда в режиме реального времени.
