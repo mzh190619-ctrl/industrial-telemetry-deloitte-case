@@ -25,7 +25,7 @@ The production facility generates massive streams of nested telemetry data. Mana
 ## 📊 Live Interactive Dashboard
 I have built and published a fully interactive BI Dashboard. 
 
-👉 **[Click here to view the Live Interactive Dashboard on Tableau Public](https://tableau.com)**
+👉 **[Click here to view the Live Interactive Dashboard on Tableau Public](https://public.tableau.com/authoring/DeloitteVirtualInternship-TelemetryAnalysis/Mydashboard#1)**
 
 ### Key Visuals Included:
 * **Down Time per Factory:** Столбчатая диаграмма, показывающая, что завод `daikibo-factory-seiko` страдает от самых серьезных операционных простоев.
