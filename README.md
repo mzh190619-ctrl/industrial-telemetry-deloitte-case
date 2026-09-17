@@ -1,5 +1,3 @@
-# industrial-telemetry-deloitte-case
-Data analytics and dashboard design for industrial machine downtime tracking.
 # Industrial Telemetry & Machine Downtime Analysis (Deloitte Virtual Case Study)
 
 ## 📌 Project Overview
@@ -26,8 +24,8 @@ The production facility generates massive streams of nested telemetry data. Mana
 
 ## 📊 Live Interactive Dashboard
 I have built and published a fully interactive BI Dashboard. 
-👉 **[Click here to view the Live Interactive Dashboard on Tableau Public](https://tableau.com)**
 
+👉 **[Click here to view the Live Interactive Dashboard on Tableau Public](https://public.tableau.com/authoring/DeloitteVirtualInternship-TelemetryAnalysis/Mydashboard#1)**
 
 ### Key Visuals Included:
 * **Down Time per Factory:** A bar chart identifying that `daikibo-factory-seiko` suffers the most significant operational losses (480 minutes of potential downtime).
